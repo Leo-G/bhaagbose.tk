@@ -1,0 +1,20 @@
+@import "bootstrap";
+
+// Classes
+.left {
+   float: left;
+   width: 200px;
+   background: red;
+}
+
+.middle {
+   margin-left: 200px;
+   margin-right: 200px;
+   
+}
+
+.right {
+   float: right;
+   width: 200px;
+   background: blue;
+}

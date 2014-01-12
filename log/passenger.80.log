@@ -1,0 +1,109 @@
+[ 2013-12-03 12:11:44.8775 21317/7fe3da3ad720 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMW5xcGNnL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.11nqpcg/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODAA', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.26', 'web_server_pid' => '21316', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-12-03 12:11:44.8825 21320/7f525ca65720 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.21316/generation-0/request
+[ 2013-12-03 12:11:44.8885 21326/7f23dfe0c720 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.21316/generation-0/logging
+[ 2013-12-03 12:11:44.8885 21317/7fe3da3ad720 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2013-12-03 12:11:47.1452 21320/7f525c96e700 Pool2/Spawner.h:796 ]: [App 21351 stdout] 
+[ 2013-12-03 12:11:48.2550 21320/7f525c96e700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 21351, listening on unix:/tmp/passenger.1.0.21316/generation-0/backends/preloader.21351
+[ 2013-12-03 14:53:49.9604 22628/7f63481cf720 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS45MWU2aDcvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.91e6h7/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODAA', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.26', 'web_server_pid' => '22627', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-12-03 14:53:49.9654 22631/7f8f89709720 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.22627/generation-0/request
+[ 2013-12-03 14:53:49.9714 22636/7f896c9a5720 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.22627/generation-0/logging
+[ 2013-12-03 14:53:49.9714 22628/7f63481cf720 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2013-12-03 14:53:52.1880 22631/7f8f89612700 Pool2/Spawner.h:796 ]: [App 22662 stdout] 
+[ 2013-12-03 14:53:53.3098 22631/7f8f89612700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 22662, listening on unix:/tmp/passenger.1.0.22627/generation-0/backends/preloader.22662
+[ 2013-12-03 15:00:09.6952 22631/7f8f89653700 Pool2/Spawner.h:796 ]: [App 22959 stdout] 
+[ 2013-12-03 15:00:10.8221 22631/7f8f89653700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 22959, listening on unix:/tmp/passenger.1.0.22627/generation-0/backends/preloader.22959
+[ 2013-12-03 15:14:16.2577 22631/7f8f8834f700 Pool2/Spawner.h:796 ]: [App 23471 stdout] 
+[ 2013-12-03 15:14:17.3755 22631/7f8f8834f700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 23471, listening on unix:/tmp/passenger.1.0.22627/generation-0/backends/preloader.23471
+[ 2013-12-03 15:37:02.6016 24176/7f5d6457d720 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xYWczMi90ZW1wX2Rpcl90b3VjaGVyLnBpZA==', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1ag32/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODAA', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.26', 'web_server_pid' => '24175', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-12-03 15:37:02.6076 24179/7f4aa1306720 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.24175/generation-0/request
+[ 2013-12-03 15:37:02.6176 24185/7f89a4ecd720 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.24175/generation-0/logging
+[ 2013-12-03 15:37:02.6176 24176/7f5d6457d720 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2013-12-03 15:37:04.7803 24179/7f4aa120f700 Pool2/Spawner.h:796 ]: [App 24210 stdout] 
+[ 2013-12-03 15:37:05.8741 24179/7f4aa120f700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 24210, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.24210
+[ 2013-12-03 15:51:41.4631 24179/7f4aa1250700 Pool2/Spawner.h:796 ]: [App 24744 stdout] 
+[ 2013-12-03 15:51:42.6479 24179/7f4aa1250700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 24744, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.24744
+[ 2013-12-03 18:01:14.3467 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 28727 stdout] 
+[ 2013-12-03 18:01:15.4705 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 28727, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.28727
+[ 2013-12-04 12:59:08.0002 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 25422 stdout] 
+[ 2013-12-04 12:59:09.1371 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 25422, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.25422
+[ 2013-12-04 13:11:07.6891 24179/7f4aa11bd700 Pool2/Spawner.h:796 ]: [App 25950 stdout] 
+[ 2013-12-04 13:11:08.8169 24179/7f4aa11bd700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 25950, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.25950
+[ 2013-12-04 13:30:42.9913 24179/7f4aa015a700 Pool2/Spawner.h:796 ]: [App 26588 stdout] 
+[ 2013-12-04 13:30:44.0901 24179/7f4aa015a700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 26588, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.26588
+[ 2013-12-04 13:49:44.0346 24179/7f4aa0097700 Pool2/Spawner.h:796 ]: [App 27223 stdout] 
+[ 2013-12-04 13:49:45.1505 24179/7f4aa0097700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 27223, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.27223
+[ 2013-12-04 13:54:51.6716 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 27477 stdout] 
+[ 2013-12-04 13:54:52.8004 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 27477, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.27477
+[ 2013-12-04 14:04:47.6424 24179/7f4aa11bd700 Pool2/Spawner.h:796 ]: [App 27860 stdout] 
+[ 2013-12-04 14:04:48.7712 24179/7f4aa11bd700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 27860, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.27860
+[ 2013-12-04 14:17:17.6736 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 28294 stdout] 
+[ 2013-12-04 14:17:18.7844 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 28294, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.28294
+[ 2013-12-04 14:29:42.8356 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 28753 stdout] 
+[ 2013-12-04 14:29:43.9554 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 28753, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.28753
+[ 2013-12-04 14:49:30.3908 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 29367 stdout] 
+[ 2013-12-04 14:49:31.5277 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 29367, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.29367
+[ 2013-12-04 16:38:58.4978 24179/7f4aa015a700 Pool2/Spawner.h:796 ]: [App 32151 stdout] 
+[ 2013-12-04 16:38:59.6406 24179/7f4aa015a700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 32151, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.32151
+[ 2013-12-04 17:04:09.7035 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 440 stdout] 
+[ 2013-12-04 17:04:10.8533 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 440, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.440
+[ 2013-12-04 17:21:02.7215 24179/7f4aa0097700 Pool2/Spawner.h:796 ]: [App 988 stdout] 
+[ 2013-12-04 17:21:03.8493 24179/7f4aa0097700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 988, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.988
+[ 2013-12-04 17:38:51.9329 24179/7f4aa00d8700 Pool2/Spawner.h:796 ]: [App 1584 stdout] 
+[ 2013-12-04 17:38:53.1557 24179/7f4aa00d8700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 1584, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.1584
+[ 2013-12-04 17:45:37.7248 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 1864 stdout] 
+[ 2013-12-04 17:45:38.8496 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 1864, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.1864
+[ 2013-12-04 17:53:28.5228 24179/7f4a99fee700 Pool2/Spawner.h:796 ]: [App 2170 stdout] 
+[ 2013-12-04 17:53:29.6936 24179/7f4a99fee700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 2170, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.2170
+[ 2013-12-04 18:45:49.4261 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 3561 stdout] 
+[ 2013-12-04 18:45:50.5729 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 3561, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.3561
+[ 2013-12-05 06:11:08.2810 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 20652 stdout] 
+[ 2013-12-05 06:11:09.4038 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 20652, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.20652
+[ 2013-12-05 13:24:02.9532 24179/7f4aa120f700 Pool2/Spawner.h:796 ]: [App 31563 stdout] 
+[ 2013-12-05 13:24:04.1591 24179/7f4aa120f700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 31563, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.31563
+[ 2013-12-05 14:06:19.1431 24179/7f4aa00d8700 Pool2/Spawner.h:796 ]: [App 401 stdout] 
+[ 2013-12-05 14:06:20.2520 24179/7f4aa00d8700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 401, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.401
+[ 2013-12-05 16:40:55.0477 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 4397 stdout] 
+[ 2013-12-05 16:40:56.1625 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 4397, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.4397
+[ 2013-12-05 18:56:17.0109 24179/7f4a99fee700 Pool2/Spawner.h:796 ]: [App 18596 stdout] 
+[ 2013-12-05 18:56:18.1567 24179/7f4a99fee700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 18596, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.18596
+[ 2013-12-06 14:12:51.7378 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 11253 stdout] 
+[ 2013-12-06 14:12:52.8557 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 11253, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.11253
+[ 2013-12-06 15:44:18.3193 24179/7f4aa00d8700 Pool2/Spawner.h:796 ]: [App 13656 stdout] 
+[ 2013-12-06 15:44:19.4271 24179/7f4aa00d8700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 13656, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.13656
+[ 2013-12-06 16:33:24.6764 24179/7f4aa019b700 Pool2/Spawner.h:796 ]: [App 15007 stdout] 
+[ 2013-12-06 16:33:25.8662 24179/7f4aa019b700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 15007, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.15007
+[ 2013-12-07 17:33:12.8631 24179/7f4aa015a700 Pool2/Spawner.h:796 ]: [App 20121 stdout] 
+[ 2013-12-07 17:33:13.9869 24179/7f4aa015a700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 20121, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.20121
+[ 2013-12-08 16:28:16.9950 24179/7f4aa11bd700 Pool2/Spawner.h:796 ]: [App 21215 stdout] 
+[ 2013-12-08 16:28:18.2469 24179/7f4aa11bd700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 21215, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.21215
+[ 2013-12-08 23:05:17.7019 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 31158 stdout] 
+[ 2013-12-08 23:05:18.8497 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 31158, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.31158
+[ 2013-12-09 08:10:23.2562 24179/7f4aa015a700 Pool2/Spawner.h:796 ]: [App 16091 stdout] 
+[ 2013-12-09 08:10:24.4570 24179/7f4aa015a700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 16091, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.16091
+[ 2013-12-09 09:46:42.3599 24179/7f4aa120f700 Pool2/Spawner.h:796 ]: [App 18643 stdout] 
+[ 2013-12-09 09:46:43.5157 24179/7f4aa120f700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 18643, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.18643
+[ 2013-12-09 10:08:12.1315 24179/7f4a99fee700 Pool2/Spawner.h:796 ]: [App 19425 stdout] 
+[ 2013-12-09 10:08:13.2573 24179/7f4a99fee700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 19425, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.19425
+[ 2013-12-09 10:28:28.6174 24179/7f4aa1158700 Pool2/Spawner.h:796 ]: [App 20136 stdout] 
+[ 2013-12-09 10:28:29.7382 24179/7f4aa1158700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 20136, listening on unix:/tmp/passenger.1.0.24175/generation-0/backends/preloader.20136
+2013/12/09 10:32:29 [crit] 24195#0: *2907 connect() to /tmp/passenger.1.0.24175/generation-0/request failed (2: No such file or directory) while connecting to upstream, client: 115.114.59.182, server: _, request: "GET /?page=1 HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.24175/generation-0/request:", host: "bhaagbose.tk", referrer: "http://bhaagbose.tk/?page=2"
+2013/12/09 10:32:30 [crit] 24195#0: *2907 connect() to /tmp/passenger.1.0.24175/generation-0/request failed (2: No such file or directory) while connecting to upstream, client: 115.114.59.182, server: _, request: "GET /?page=1 HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.24175/generation-0/request:", host: "bhaagbose.tk", referrer: "http://bhaagbose.tk/?page=2"
+2013/12/09 10:32:34 [crit] 24195#0: *2907 connect() to /tmp/passenger.1.0.24175/generation-0/request failed (2: No such file or directory) while connecting to upstream, client: 115.114.59.182, server: _, request: "GET / HTTP/1.1", upstream: "passenger:/tmp/passenger.1.0.24175/generation-0/request:", host: "bhaagbose.tk"
+2013/12/09 10:34:51 [emerg] 20464#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2013/12/09 10:34:51 [emerg] 20464#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2013/12/09 10:34:51 [emerg] 20464#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2013/12/09 10:34:51 [emerg] 20464#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2013/12/09 10:34:51 [emerg] 20464#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2013/12/09 10:34:51 [emerg] 20464#0: still could not bind()
+[ 2013-12-09 10:35:26.4624 20472/7f54e63eb720 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5tcmxhbHkvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.mrlaly/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODAA', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.26', 'web_server_pid' => '20471', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-12-09 10:35:26.4724 20475/7fac58791720 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20471/generation-0/request
+[ 2013-12-09 10:35:26.4764 20480/7fd3054d5720 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20471/generation-0/logging
+[ 2013-12-09 10:35:26.4774 20472/7f54e63eb720 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2013-12-09 10:35:28.6411 20475/7fac5869a700 Pool2/Spawner.h:796 ]: [App 20506 stdout] 
+[ 2013-12-09 10:35:29.7539 20475/7fac5869a700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 20506, listening on unix:/tmp/passenger.1.0.20471/generation-0/backends/preloader.20506
+[ 2013-12-09 10:35:49.3609 20663/7f2874b91720 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS43eWR4MWovdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.7ydx1j/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODAA', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.26', 'web_server_pid' => '20662', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-12-09 10:35:49.3669 20666/7fe8d9d7b720 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20662/generation-0/request
+[ 2013-12-09 10:35:49.3749 20671/7fb02602d720 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20662/generation-0/logging
+[ 2013-12-09 10:35:49.3749 20663/7f2874b91720 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2013-12-09 10:35:51.5486 20666/7fe8d9c84700 Pool2/Spawner.h:796 ]: [App 20697 stdout] 
+[ 2013-12-09 10:35:52.6674 20666/7fe8d9c84700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 20697, listening on unix:/tmp/passenger.1.0.20662/generation-0/backends/preloader.20697

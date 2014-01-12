@@ -1,0 +1,21 @@
+class ImagesController < ApplicationController
+ def index
+ end
+ def create
+  @image = Image.new(image_params)
+  @image.save
+  uploaded_io = params[:image][:picture]
+  File.open(Rails.root.join('public', 'uploads', uploaded_io.original_filename), 'wb') do |file|
+    file.write(uploaded_io.read)
+  end
+  redirect_to @image
+ end
+ def show
+  @images = Dir.glob("public/uploads/*.jpg") 
+ 
+end
+private
+  def image_params
+  params.require(:image).permit(:title, :text)
+  end
+end

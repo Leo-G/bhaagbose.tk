@@ -1,0 +1,40 @@
+<html>
+<body>
+<h1>Listing Images</h1>
+
+   <div class="container-fluid">
+    <div class="row-fluid">
+   <div class="col-md-4  col-md-offset-4 ">
+             <%= link_to 'New', new_user_path %>
+   </div>
+
+        <div class="col-md-4  col-md-offset-4 ">
+<table>
+  <tr>
+    <th>Text</th>
+    <th>Email</th>
+    <th>Image </th>
+    <th></th>
+    <th></th>
+  </tr>
+ 
+<% @user.each do |u| %>
+  <tr>
+    <td><%= u.text %></td>
+    <td><%= u.email %></td>
+    <td><%= image_tag u.image.url(:thumb).to_s %></td>
+     <td><%= u.tag_list %></td> 
+     <td><%= link_to 'Destroy', user_path(u),
+	    method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Edit', edit_user_path(u) %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+        <div class="col-md-4  col-md-offset-4 ">
+             <%= paginate @user %>
+   </div>
+ </div>
+</div>
+
+

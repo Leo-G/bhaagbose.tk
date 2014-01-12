@@ -1,0 +1,18 @@
+
+<html>
+ <body>
+  <div class="container">
+  <p>
+  <strong>Text:</strong>
+  <%= @user.text %>
+  </p>
+  <%= image_tag @user.image.url.to_s %> 
+  <p>
+  <strong>Submitted by:</strong>
+  <%= @user.email %>
+  </p>
+  <p> Tags: <%= raw @user.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
+  </div>
+ </body>
+</html>
+

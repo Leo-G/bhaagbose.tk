@@ -1,0 +1,30 @@
+<html>
+<body>
+<%= stylesheet_link_tag "custom" %>
+<div class="container">
+<%= form_for :image, :html=> {:mutlipart=>true }, url: images_path do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+   <p>
+   <%= f.label :picture %><br>
+   <%= f.file_field :image %>
+   </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<div class="row">
+  <div class="span9">
+    Level 1 column
+    <div class="row">
+      <div class="span6">Level 2</div>
+      <div class="span3">Level 2</div>
+    </div>
+  </div>
+</div>
+<% end %>
+</div>
+</body>
+</html>

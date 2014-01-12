@@ -1,0 +1,22 @@
+[ 2013-12-03 12:05:51.5086 20737/7f914b205720 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'root', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xeGRoZ2VzL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1xdhges/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.26', 'web_server_pid' => '20736', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-12-03 12:05:51.5136 20740/7fa63e413720 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20736/generation-0/request
+[ 2013-12-03 12:05:51.5196 20746/7fd0e2d68720 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20736/generation-0/logging
+[ 2013-12-03 12:05:51.5206 20737/7f914b205720 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2013-12-03 12:05:53.7502 20740/7fa63e31c700 Pool2/Spawner.h:796 ]: [App 20771 stdout] 
+[ 2013-12-03 12:05:53.8482 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] *** Phusion Passenger: no passenger_native_support.so found for the current Ruby interpreter. Downloading precompiled binary from the Phusion server (set PASSENGER_DOWNLOAD_NATIVE_SUPPORT_BINARY=0 to disable)...
+[ 2013-12-03 12:05:53.8492 20740/7fa63e2db700 Pool2/Spawner.h:152 ]: [App 20771 stderr] 
+[ 2013-12-03 12:05:53.8492 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] cp /usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.26/download_cache/rubyext-ruby-2.0.0-x86_64-linux.tar.gz /tmp/passenger-native-support-hjfr8k/rubyext-ruby-2.0.0-x86_64-linux.tar.gz
+[ 2013-12-03 12:05:53.8492 20740/7fa63e2db700 Pool2/Spawner.h:152 ]: [App 20771 stderr] 
+[ 2013-12-03 12:05:53.8492 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # tar xzf rubyext-ruby-2.0.0-x86_64-linux.tar.gz
+[ 2013-12-03 12:05:53.8492 20740/7fa63e2db700 Pool2/Spawner.h:152 ]: [App 20771 stderr] 
+[ 2013-12-03 12:05:53.8592 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # rm -f rubyext-ruby-2.0.0-x86_64-linux.tar.gz
+[ 2013-12-03 12:05:53.8612 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] Checking whether downloaded binary is usable...
+[ 2013-12-03 12:05:53.8612 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # /usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby -I. test.rb
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] Binary is usable.
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # mkdir -p /tmp/passenger-standalone.1xdhges/locations.ini/buildout/ruby/ruby-2.0.0-x86_64-linux
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] Not a valid directory. Trying a different one...
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] -------------------------------
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # mkdir -p /root/.passenger/native_support/4.0.26/ruby-2.0.0-x86_64-linux
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # cd /root/.passenger/native_support/4.0.26/ruby-2.0.0-x86_64-linux
+[ 2013-12-03 12:05:53.8902 20740/7fa63e2db700 Pool2/Spawner.h:160 ]: [App 20771 stderr] # Installing passenger_native_support.so
+[ 2013-12-03 12:05:54.8841 20740/7fa63e31c700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/sites/app.leog.in/bhagbose started on PID 20771, listening on unix:/tmp/passenger.1.0.20736/generation-0/backends/preloader.20771

@@ -1,0 +1,20 @@
+
+<html>
+<body>
+<div class="container">
+ <p>
+  <strong>Title:</strong>
+  <%= @image.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @image.text %>
+   <strong>Pic:</strong>
+  <%= image_tag @image.image.url.to_s %>
+    
+</p>
+</div>
+</body>
+</html>
+

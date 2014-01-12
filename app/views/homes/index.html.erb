@@ -1,0 +1,16 @@
+<html>
+<head>
+<h1>Bhagbose.tk your Daily dose of phun</h1>
+<%= stylesheet_link_tag "custom" %>
+</head>
+<body>
+<div class="container">
+  <div class="middle">   
+<%@home.each do |h| %>     
+<%= image_tag url_for(:controller => "mycontroller", :action => "show_image",:id => h.id) ) %> 
+     <p>Submitted by Leo G <%= h.id %></p>
+       <%end %>    
+     </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<body>
+<%= stylesheet_link_tag "custom" %>
+<div class="container">
+<%= form_for :user, :html=> {:mutlipart=>true }, url: users_path do |f| %>
+   <% if @user.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@user.errors.count, "error") %> prohibited
+      this user from being saved:</h2>
+    <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :Text  %><br>
+    <%= f.text_field :text %>
+  </p>
+
+   <p>
+   <%= f.label :image %><br>
+   <%= f.file_field :image %>
+   </p>
+    <p>
+   <%= f.label :tag_list %>
+     <%= f.text_field :tag_list %>
+    </p>
+  <p>
+    <%= f.submit %>
+  </p>
+   <% end %>
+  <%= link_to "back", users_path %>
+  </div>
+ </body>
+</html>
