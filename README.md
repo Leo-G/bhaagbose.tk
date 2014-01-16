@@ -7,5 +7,7 @@ Images are stored in the public/uploads directory.
 
 jpg, png and gif are allowed.
 
+Please refer to the user model and resource
+
 
 
